@@ -5,6 +5,7 @@ import HeaderComponent from '../components/HeaderComponent.js';
 import FooterComponent from '../components/FooterComponent.js';
 import CardComponent from '../components/CardComponent.js';
 import TouristServices from '../util/TouristServices.js';
+import axios from 'axios';
 class HomeComponent extends React.Component{
     constructor(){
         super();
